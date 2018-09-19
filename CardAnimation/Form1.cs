@@ -240,7 +240,7 @@ namespace CardAnimation
             g.Clear(Color.White);
             Pen writingPen = new Pen(Color.Blue, 10);
             g.DrawLine(writingPen, 100, 100, 200, 100);
-            g.DrawLine(writingPen, 200, 100, 200, 100);
+            g.DrawLine(writingPen, 200, 100, 100, 100);
         }
     }
 }
